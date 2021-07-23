@@ -1,4 +1,4 @@
-# Group Project 1: Sector Dominance
+# Sector Dominance
 
 The following code was developed in the sector_data_analysis notebook as a tool to facilitate investment planning by sector analysis. It uses the Alpaca API to fetch historical closing prices for ETFs that represent each sector of the S&P 500. After the data has been cleaned, the code analyzes and visualizes risk, returns, votality, and Sharpe ratios of individual sectors against the S&P 500. Next it runs two Monte Carlo simulations, one to project performance of a portfolio equally distributed across sectors at 20 years and one to project our portfolio performance at 20 years. Then the Monte Carlo data is used to calculate the expected portfolio returns given a specific initial investment amount. Finally, tear sheets are created in the portfolio_tear_sheets notebook as a quick reference to the sectors in our portfolio.
 
